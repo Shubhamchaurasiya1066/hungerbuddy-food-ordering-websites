@@ -1,0 +1,34 @@
+.maincontainer{
+    width: 100vw;
+    background: rgb(100, 184, 114);
+}
+
+.stylebar{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 2px;
+    
+}
+.styletext{
+ display: flex;
+ flex-direction: column;
+ padding: 15px;
+}
+.styleone{
+    font-size: clamp(0.3rem,0.7vh + 0.4rem,0.8rem);
+    font-weight: bold;
+}
+.styletwo{
+    font-size: clamp(0.6rem,1vw + 0.6rem,2.5rem);
+    font-weight: bolder;
+}
+.stylethree{
+    font-size: clamp(0.3rem,0.7vh + 0.4rem,0.8rem);
+    font-weight: 900;
+}
+.stylename{
+    font-size: clamp(0.3rem,0.7vh + 0.4rem,0.8rem);
+}
